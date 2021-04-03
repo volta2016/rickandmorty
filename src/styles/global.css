@@ -1,0 +1,45 @@
+:root {
+	--whitelight: #f4f4f4;
+	--gray: #15302c;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--whiteligh);
+	color: var(--gray);
+	font-family: "Open Sans", sans-serif;
+}
+
+body.dark {
+	background: #111111;
+	transition: 1s ease all;
+	color: #949494;
+}
+
+.count {
+	font-weight: 700;
+}
+
+.plus {
+	background-color: #44b4ca;
+	color: #000;
+	margin-right: 12px;
+	padding: 8px 12px;
+	border-radius: 4px;
+	border: none;
+	max-width: 100px;
+	margin-bottom: 18px;
+	cursor: pointer;
+}
+
+.subtract {
+	background-color: #d0dc70;
+	color: #124314;
+	padding: 8px 12px;
+	border-radius: 4px;
+	border: none;
+	max-width: 100px;
+	margin-bottom: 18px;
+	cursor: pointer;
+}
