@@ -7,6 +7,6 @@
 - Component communication - Props and CustomProps
 - Define routes and navigation
 
-![alt text](https://repository-images.githubusercontent.com/354398484/ec9e1180-94ac-11eb-9a10-a3745c780604)
+![Rick and Morty](https://repository-images.githubusercontent.com/354405433/31798500-954d-11eb-9e75-59ba677e11de)
 
-url [see project](https://github.com/volta2016/rickandmorty).
+url [see project](https://volta2016.github.io/rickandmorty/).
