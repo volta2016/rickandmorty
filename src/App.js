@@ -9,7 +9,7 @@ import { withCounter } from "hoc";
 import "styles/global.css";
 
 const App = ({ counter, increment, decrement, nameApp }) => (
-	<BrowserRouter>
+	<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<Layout>
 			<p>
 				<b>{nameApp}</b> - Suma o Resta al valor inicial
@@ -30,7 +30,11 @@ const App = ({ counter, increment, decrement, nameApp }) => (
 			<Switch>
 				<Route path="/" exact component={HomePage}></Route>
 				<Route path="/about" component={About}></Route>
-				<Route path="/:id" component={CharacterDetails}></Route>
+				<Route
+					path="/characters/:id"
+					exact
+					component={CharacterDetails}
+				></Route>
 			</Switch>
 		</Layout>
 	</BrowserRouter>

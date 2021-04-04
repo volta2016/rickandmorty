@@ -12,7 +12,7 @@ const CharacterList = ({ characters }) => {
 
 const CharacterCard = ({ id, name, image }) => (
 	<article className="Characters-item">
-		<Link to={`/${id}`}>
+		<Link to={`/characters/${id}`}>
 			<img src={image} alt={name} />
 			<h2>{name}</h2>
 		</Link>
